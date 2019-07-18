@@ -11,6 +11,6 @@ deploy:
   github-token: ${GITHUB_TOKEN}
   committer_from_gh: true
   keep-history: true
-  target_branch: docs
+  target_branch: gh-pages
   on:
     branch: master
