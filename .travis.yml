@@ -3,11 +3,11 @@ node_js:
   - lts/*
 cache: npm
 script:
-  - npm run docs:build
+  - npm run build
 deploy:
   provider: pages
   skip-cleanup: true
-  local_dir: docs/.vuepress/dist
+  local_dir: dist
   github-token: ${GITHUB_TOKEN}
   committer_from_gh: true
   keep-history: true
