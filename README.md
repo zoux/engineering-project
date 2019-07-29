@@ -4,6 +4,8 @@
 
 * travis CI
 * commitizen & cz-conventional-changelog
+* standard-version
+* gh-pages
 
 
 ## commit-changelog
