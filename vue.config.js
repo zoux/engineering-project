@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'development' ? '/' : '/vue-travis-ci/'
+  publicPath: process.env.NODE_ENV === 'development' ? '/' : '/engineering-project/'
 }
