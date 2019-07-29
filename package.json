@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "deploy": "vue-cli-service build && gh-pages -d dist",
-    "release": "sh ./scripts/release.sh"
+    "release": "sh ./build/release.sh"
   },
   "dependencies": {
     "core-js": "^2.6.5",
