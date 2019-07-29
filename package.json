@@ -1,10 +1,11 @@
 {
-  "name": "app",
-  "version": "0.1.0",
+  "name": "engineering-project",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "release": "sh ./scripts/release.sh"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -13,8 +14,16 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
     "@vue/cli-service": "^3.9.0",
+    "conventional-changelog-cli": "^2.0.23",
+    "cz-conventional-changelog": "^3.0.2",
     "sass": "^1.18.0",
     "sass-loader": "^7.1.0",
+    "standard-version": "^6.0.1",
     "vue-template-compiler": "^2.6.10"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
