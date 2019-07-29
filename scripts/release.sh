@@ -12,4 +12,7 @@ then
     # commit & push
     standard-version --tag-prefix "" --release-as ${VERSION}
     git push origin master
+
+    # deploy
+    npm run deploy
 fi
