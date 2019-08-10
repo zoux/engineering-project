@@ -14,5 +14,6 @@ then
     git push origin master
 
     # deploy
-    npm run deploy
+    npm run build
+    npm run ghpages
 fi

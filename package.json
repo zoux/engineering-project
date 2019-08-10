@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "deploy": "vue-cli-service build && gh-pages -d dist",
+    "ghpages": "gh-pages -d dist",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "release": "sh ./build/release.sh"
   },
