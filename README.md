@@ -24,9 +24,14 @@
 * revert: 代码回退
 
 
-### 会触发 conventional-changelog 生成 changelog 的标记
+### conventional-changelog 使用规则
 
+1.触发生成 changelog 的 commit 标记：
 * feat
 * fix
 * perf
 * revert
+
+2.版本号间隔的判定：
+* 历史的版本号，以远端的 tag 为标准
+* 最新的版本号，以 package.json version 为标准
