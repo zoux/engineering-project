@@ -1,13 +1,20 @@
 <template>
   <div id="app">
-    1
+    <div>app</div>
+    <div>window.location: {{ address }}</div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app',
-  components: {}
+  data () {
+    return {
+      address: ''
+    }
+  },
+  created () {
+    this.address = window.location
+  }
 }
 </script>
 
